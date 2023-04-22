@@ -1,0 +1,93 @@
+    1  git
+    2  pwd
+    3  mkdir devops-demo
+    4  cd devops-demo/
+    5  touch hello.txt
+    6  ls -al
+    7  ls - l
+    8  ls -l
+    9  git init
+   10  ls
+   11  ls - al
+   12  ls -al
+   13  cat .git/
+   14  cat .git/HEAD 
+   15  git config --global user.name "Nildip"
+   16  git config --global user.email  "qanildip@gmail.com"
+   17  git status
+   18  git config --global user.name "QA-Nildip"
+   19  git add hello.txt 
+   20  git commit -m "added hello file"
+   21  git config --global user.name "patelnildip"
+   22  rm hello.txt 
+   23  git restore hello.txt
+   24  ls
+   25  vi hello.txt
+   26  git status
+   27  git add hello.txt 
+   28  git status
+   29  git restore --staged hello.txt
+   30  git status
+   31  git add hello.txt 
+   32  git status
+   33  git commit -m "added some content on file"
+   34  git log
+   35  ls
+   36  cd ..
+   37  pwd
+   38  ls
+   39  cd devops-demo/
+   40  history
+   41  git clone git@gist.github.com:0b367734a02e8cf77e6ea1dc90ee0f38.git
+   42  git branch
+   43  ls
+   44  touch test.txt
+   45  ls
+   46  rm test.txt 
+   47  git status
+   48  git checkout -b dev
+   49  git branch
+   50  vi dev.txt
+   51  git add dev.txt 
+   52  git commit -m "added dev file"
+   53  vi hello.txt 
+   54  git add hello.txt 
+   55  git commit -m "dev pushed on dev branch"
+   56  dev branch
+   57  git branch
+   58  git checkout master
+   59  ls
+   60  cat hello.txt 
+   61  git checkout dev
+   62  ls
+   63  cat hello.txt 
+   64  git checkout master
+   65  git status
+   66  git branch
+   67  cd..
+   68  cd ..
+   69  pwd
+   70  git status
+   71  clear
+   72  git clone https://github.com/patelnildip/devops-zero-to-hero.git
+   73  ls
+   74  cd devops-zero-to-hero/
+   75  ls
+   76  cat README.md 
+   77  git status
+   78  vi README.md 
+   79  git add README.md 
+   80  git status 
+   81  git commit -m "this is the commit from the AWS machine"
+   82  git push
+   83  git config --global user.name "patelnildip"
+   84  git remote -v
+   85  git push origin main
+   86  git remote -v
+   87  git remote set-url origin https://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@github.com/patelnildip/devops-zero-to-hero.git
+   88  git push origin main
+   89  git remote -v
+   90  git pull origin main
+   91  ls
+   92  git status
+   93  history >> history_22april2023.txt
