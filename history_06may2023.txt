@@ -1,0 +1,393 @@
+ubuntu@master-ubuntu:~/devops-zero-to-hero$ history
+    1  git
+    2  pwd
+    3  mkdir devops-demo
+    4  cd devops-demo/
+    5  touch hello.txt
+    6  ls -al
+    7  ls - l
+    8  ls -l
+    9  git init
+   10  ls
+   11  ls - al
+   12  ls -al
+   13  cat .git/
+   14  cat .git/HEAD
+   15  git config --global user.name "Nildip"
+   16  git config --global user.email  "qanildip@gmail.com"
+   17  git status
+   18  git config --global user.name "QA-Nildip"
+   19  git add hello.txt
+   20  git commit -m "added hello file"
+   21  git config --global user.name "patelnildip"
+   22  rm hello.txt
+   23  git restore hello.txt
+   24  ls
+   25  vi hello.txt
+   26  git status
+   27  git add hello.txt
+   28  git status
+   29  git restore --staged hello.txt
+   30  git status
+   31  git add hello.txt
+   32  git status
+   33  git commit -m "added some content on file"
+   34  git log
+   35  ls
+   36  cd ..
+   37  pwd
+   38  ls
+   39  cd devops-demo/
+   40  history
+   41  git clone git@gist.github.com:0b367734a02e8cf77e6ea1dc90ee0f38.git
+   42  git branch
+   43  ls
+   44  touch test.txt
+   45  ls
+   46  rm test.txt
+   47  git status
+   48  git checkout -b dev
+   49  git branch
+   50  vi dev.txt
+   51  git add dev.txt
+   52  git commit -m "added dev file"
+   53  vi hello.txt
+   54  git add hello.txt
+   55  git commit -m "dev pushed on dev branch"
+   56  dev branch
+   57  git branch
+   58  git checkout master
+   59  ls
+   60  cat hello.txt
+   61  git checkout dev
+   62  ls
+   63  cat hello.txt
+   64  git checkout master
+   65  git status
+   66  git branch
+   67  cd..
+   68  cd ..
+   69  pwd
+   70  git status
+   71  clear
+   72  git clone https://github.com/patelnildip/devops-zero-to-hero.git
+   73  ls
+   74  cd devops-zero-to-hero/
+   75  ls
+   76  cat README.md
+   77  git status
+   78  vi README.md
+   79  git add README.md
+   80  git status
+   81  git commit -m "this is the commit from the AWS machine"
+   82  git push
+   83  git config --global user.name "patelnildip"
+   84  git remote -v
+   85  git push origin main
+   86  git remote -v
+   87  git remote set-url origin https://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@github.com/patelnildip/devops-zero-to-hero.git
+   88  git push origin main
+   89  git remote -v
+   90  git pull origin main
+   91  ls
+   92  git status
+   93  history >> history_22april2023.txt
+   94  ls
+   95  git staus
+   96  git status
+   97  git add .
+   98  ls
+   99  git push origin main
+  100  git commit -m "this is the history of the command"
+  101  git status
+  102  git push origin main
+  103  git remote -v
+  104  init 0
+  105  sudo init 0
+  106  ls
+  107  cd devops-zero-to-hero/
+  108  git status
+  109  cd ..
+  110  hostname
+  111  pwd
+  112  vim README.txt
+  113  cat README.txt
+  114  cat /etc/hostname
+  115  vim /etc/hostname
+  116  su vim /etc/hostname
+  117  sudo vim /etc/hostname
+  118  hostname
+  119  init 6
+  120  sudo reboot
+  121  cat .ssh/
+  122  cat .ssh/id_rsa.pub
+  123  ipconfig
+  124  ifconfig
+  125  sudo apt install net-tools
+  126  ifconfig
+  127  ifconfig | grep inet
+  128  ifconfig | grep inet | awk '{print $1}'
+  129  ifconfig | grep inet | awk '{print $2}'
+  130  ifconfig | grep inet | awk '{print $2}'| head -n 1
+  131  sudo init 0
+  132  clear
+  133  df -h
+  134  free
+  135  free -G
+  136  free -g
+  137  free -b
+  138  free -human
+  139  free -h
+  140  clear
+  141  sudo apt-get update
+  142  sudo apt update
+  143  sudo apt install openjdk-11-jre
+  144  sudo apt install openjdk-11-jre
+  145  java -version
+  146  curl -fsSL https://pkg.jenkins.io/debian/jenkins.io.key | sudo tee \   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+  147  echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \   https://pkg.jenkins.io/debian binary/ | sudo tee \   /etc/apt/sources.list.d/jenkins.list > /dev/null
+  148  sudo apt-get update
+  149  sudo apt-get install jenkins
+  150  sudo systemctl enable jenkins
+  151  sudo systemctl start jenkins
+  152  sudo systemctl status jenkins
+  153  clear
+  154  cat /var/lib/jenkins/secrets/initialAdminPassword
+  155  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+  156  docker
+  157  sudo apt install docker.io
+  158  docker
+  159  sudo systemctl stop jenkins
+  160  sudo systemctl status jenkins
+  161  sudo docker pull jenkins/jenkins
+  162  docker images
+  163  sudp docker images
+  164  sudp docker image
+  165  sudo docker image
+  166  sudo docker image ls
+  167  sudo docker run -d -p 80:8080 jenkins:latest
+  168  sudo docker run -d -p 80:8080 jenkins/jenkins:latest
+  169  sudo docker kill 1fe2d67cdc313a8f962da70793e1343ee9c0de9cf5fb5166b28e1968b5e15f0c~
+  170  sudo docker kill 1fe2d67cdc313a8f962da70793e1343ee9c0de9cf5fb5166b28e1968b5e15f0c~
+  171  sudo docker kill 1fe2d67cdc313a8f962da70793e1343ee9c0de9cf5fb5166b28e1968b5e15f0c
+  172  sudo docker ps
+  173  sudo docker rm 1fe2d67cdc313a8f962da70793e1343ee9c0de9cf5fb5166b28e1968b5e15f0c
+  174  sudo docker run -d -p 8080:8080 jenkins/jenkins:latest
+  175  sudo docker ps
+  176  sudo docker cp d22091a613a0:/var/jenkins_home/secrets/initialAdminPassword
+  177  sudo docker cp d22091a613a0:/var/jenkins_home/secrets/initialAdminPassword -
+  178  sudo docker exec -t -i d22091a613a0 /bin/bash
+  179  sudo docker -it d22091a613a0 cat /var/jenkins_home/secrets/initialAdminPassword
+  180  sudo docker exec -t -i d22091a613a0 /bin/bash
+  181  sudo docker ps
+  182  cat hostname
+  183  hostname
+  184  git remote -v
+  185  cd devops-zero-to-hero/
+  186  git remote -v
+  187  lsof -i 8000
+  188  sudo docker ps
+  189  docker ps
+  190  sudo docker ps
+  191  docker kill d22091a613a0
+  192  sudo docker kill d22091a613a0
+  193  ls
+  194  sudo docker ps
+  195  sudo docker rm d22091a613a0
+  196  docker image
+  197  sudo docker image
+  198  sudo systemctl status jenkins
+  199  sudo systemctl start jenkins
+  200  sudo systemctl status jenkins
+  201  lsof -i 8000
+  202  sudo docker ps
+  203  sudo su
+  204  clear
+  205  sysctl status docker
+  206  docker container ls -a
+  207  sudo docker container ls -a
+  208  sudo docker container ls
+  209  systemctl is-active docker
+  210  sudo apt-get update
+  211  sudo apt-get install docker.io
+  212  cat /etc/group
+  213  docker ps
+  214  sudo docker ps
+  215  sudo usermod -aG docker $USER
+  216  sudo reboot
+  217  docker ps
+  218  clear
+  219  docker pull mysql
+  220  docker image
+  221  docker images
+  222  docker run -p 3306:3306 -e MYSQL_ROOT_PASSWORD=test@123 mysql:latest
+  223  clear
+  224  docker ps
+  225  docker images
+  226  man docker
+  227  clear
+  228  docker pull nginx
+  229  docker run 80:80 -d nginx:latest
+  230  docker run -p 80:80 -d nginx:latest
+  231  docker ps
+  232  docker kill 4304
+  233  docker ps
+  234  git clone https://github.com/LondheShubham153/react_django_demo_app.git
+  235  cd react_django_demo_app/
+  236  ls
+  237  ls -al
+  238  vi Dockerfile_NP
+  239  cat Dockerfile
+  240  cat Dockerfile_NP
+  241  rm -rf Dockerfile_NP
+  242  docker build . -t react_django_app:latest
+  243  docker image
+  244  docker images
+  245  docker run -p 8001:8001 -d react_django_app:latest
+  246  docker ps
+  247  clear
+  248  docker ps
+  249  docker kill cca
+  250  docker ps
+  251  docker images
+  252  docker rmi 4665a95
+  253  sudo docker rmi 4665a95
+  254  sudo docker rmi 2202ef
+  255  docker image dependencies
+  256  docker image inspect
+  257  docker image inspect 2202
+  258  clear
+  259  docker ps
+  260  docker images
+  261  clear
+  262  sysctl status docker
+  263  git status
+  264  history
+  265  systemctl is-active docker
+  266  systemctl status docker
+  267  clear
+  268  ls
+  269  git clone https://github.com/LondheShubham153/microservices-k8s.git
+  270  ls
+  271  cd microservices-k8s/
+  272  git status
+  273  ls
+  274  ls flask-api/
+  275  cat flask-api/Dockerfile
+  276  cd ..
+  277  ls
+  278  pwd
+  279  cd microservices-k8s/
+  280  cd flask-api/
+  281  cat Dockerfile
+  282  clear
+  283  python
+  284  docker build . -t flask-api:latest
+  285  docker images
+  286  docker run -d -p 5000:5000 flask-api:latest
+  287  docker ps
+  288  docker run -d -p 27017:27017 --name mongo mongo:latest
+  289  docker network create flask mongo-net
+  290  docker network create flask-mongo-net
+  291  docker network ls
+  292  docker ps
+  293  docekr kill all
+  294  docker kill a6abc6be4bf1
+  295  docker kill 342
+  296  docker ps
+  297  docker run -d -p 5000:5000 --network flask-mongo-net flask-api:latest
+  298  docker run -d -p 27017:27017 --network flask-mongo-net --name mongo mongo:latest
+  299  docker -rm 4ad4
+  300  docker rm 4ad4
+  301  docker run -d -p 27017:27017 --network flask-mongo-net --name mongo mongo:latest
+  302  docker rm a6abc6be4bf12bca4ad41de69835035f233fd37240cba2fcf0d19051924d0172
+  303  docker run -d -p 27017:27017 --network flask-mongo-net --name mongo mongo:latest
+  304  history
+  305  cd ..
+  306  ls
+  307  cd ..
+  308  ls
+  309  cd devops-zero-to-hero/
+  310  ls
+  311  history >> history_30april2023.txt
+  312  git add .
+  313  git commit -m "commands related to docker and network between docker and flask api project"
+  314  git push origin
+  315  git status
+  316  git branches
+  317  git branch
+  318  cd ~
+  319  ls
+  320  pwd
+  321  docker login
+  322  docker images
+  323  docker tag flask-api:latest patelnildip/flask-mirco-app:latest
+  324  docker images
+  325  docker push patelnildip/flask-mirco-app:latest
+  326  docker ps
+  327  docker kill a00
+  328  docker remove a00
+  329  docker rm a00
+  330  docker kill 2ed && docker rm 2ed
+  331  docker ps
+  332  cd microservices-k8s/
+  333  cd flask-api/
+  334  vim Docker-compose.yaml
+  335  mv Docker-compose.yaml docker-compose.yaml
+  336  ls
+  337  sudo apt docker-compose
+  338  sudo apt install docker-compose
+  339  docker-compose up -d
+  340  docker ps
+  341  docker-compose down
+  342  vim docker-compose.yaml
+  343  docker-compose up -d
+  344  git status
+  345  docker-compose down
+  346  docker-compose up -d
+  347  docker-compose down
+  348  jenkins -v
+  349  jenkins --help
+  350  docker images
+  351  docker rmi python
+  352  docker rmi python:3.9
+  353  sudo docker rmi python
+  354  sudo docker rmi python:3.9
+  355  sudo docker rmi todo-app:latest
+  356  docker rm 841
+  357  sudo docker rmi todo-app:latest
+  358  sudo init 0
+  359  sudo docker images
+  360  sudo docker images
+  361  ps -aux | grep docker
+  362  systemctl start docker
+  363  sudo dockerd
+  364  sudo service --status-all
+  365  rm /var/snap/docker/<your-version-number>/run/docker.pid
+  366  rm /var/snap/dockesudo su
+  367  sudo su
+  368  history
+  369  ps
+  370  ls
+  371  cd devops-zero-to-hero/
+  372  ls
+  373  history >> history_06may2023.txt
+  374  cd ..
+  375  ls
+  376  rm -rf microservices-k8s
+  377  rm -rf react_django_demo_app
+  378  ls
+  379  cd devops-zero-to-hero/
+  380  history >> history_06may2023.txt
+  381  git status
+  382  git add .
+  383  git commit -m "final push"
+  384  git push origin
+  385  git remote -v
+  386  git push remote origin
+  387  git push origin main
+  388  git remote -v
+  389  git remote set-url origin https://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@github.com/patelnildip/devops-zero-to-hero.git
+  390  git push origin main
+  391  git remote -v
+  392  history
